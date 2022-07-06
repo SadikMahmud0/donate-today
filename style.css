@@ -80,7 +80,6 @@ body{
 }
 
 
-
 .plan{
     width: 50%;
     height: 150px;
@@ -160,8 +159,6 @@ body{
 }
 
 
-
-
 .need-help{
     width: 50%;
     padding-left: 5%;
@@ -177,7 +174,6 @@ body{
 }
 
 
-
 #get-updates{
     width: 40%;
     height: 170px;
@@ -188,18 +184,31 @@ body{
 }
 #get-updates h1{
     font-size: 40px;
-    color: rgb(106, 5, 5);
+    color: rgb(100, 99, 99);
 }
-#submited{
-    width: 30%;
-    height: 50px;
-    text-align: center;
-    padding-top: 30px;
-    background-color: rgb(184, 240, 236);
-    margin-left: 470px;
-    border-radius: 20px;
+#from-area{
+    width: 50%;
+    height: 120px;
+    margin-left: 25%;
+    background-color: lavender;
+    border-radius: 10px;
 }
-
+#email{
+    font-size: 20px;
+    color: dimgray;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 7%;
+    margin-left: 23%;
+}
+#subscribe{
+    font-size: 20px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: red;
+    border: 0;
+}
 
 
 .footer{
