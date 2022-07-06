@@ -14,21 +14,20 @@ body{
     margin-top: 150px;
     margin-left: 300px;
  }
-.to-the-point{
-    color: white;
-}
 .top-banner h1{
     font-size: 50px;
+    color: white;
 }
 .top-banner p{
-    font-weight: 500;
+    font-size: 20px;
+    color: white;
 }
 .donate-now-button{
     text-decoration: none;
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     padding: 10px 20px;
-    background-color: rgb(234, 60, 60);
+    background-image: linear-gradient(rgb(245, 158, 142),rgb(225, 71, 15));
     border-radius: 10px;
 }
 
@@ -36,21 +35,21 @@ body{
 .donation-area{
     background-image: url(images/water.webp);
     width: 50%;
-    height: 450px;
+    height: 500px;
     text-align: center;
-    margin: 100px 200px 70px 300px;
-}
-.donation-amount{
-    display: flex;
-
+    margin: 150px 200px 100px 300px;
 }
 .donation h1{
     font-size: 40px;
-    color: rgb(71, 66, 66)
+    padding-top: 15px;
+    color: rgb(218, 67, 13);
 }
 .donation p{
     padding-left: 60px;
     padding-right: 60px;
+}
+.donation-amount{
+    display: flex;
 }
 .amount{
     display: inline-block;
@@ -82,14 +81,9 @@ body{
 
 
 
-.flexible-container{
-    display: flex;
-    margin-bottom: 100px;
-
-}
 .plan{
     width: 50%;
-    height: 200px;
+    height: 150px;
     text-align: center;
     margin-left: 300px;
     margin-right: 200px;
@@ -102,14 +96,21 @@ body{
     padding-left: 60px;
     padding-right: 60px;
 }
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.gary{
+    color: dimgray;
+}
 #plan-one{
     width: 30%;
-    height: 350px;
+    height: 300px;
     background-color: rgb(224,255,255);
     margin-top: 30px;
     margin-left: 4%;
     margin-right: 1%;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-left: 20px;
     border: 1px solid grey;
     border-radius: 5px;
@@ -123,10 +124,10 @@ body{
 }
 #plan-two{
     width: 30%;
-    height: 350px;
+    height: 300px;
     background-color:rgb(255,239,213);
     margin-top: 30px;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-left: 20px;
     border: 1px solid grey;
     border-radius: 5px;
@@ -140,12 +141,12 @@ body{
 }
 #plan-three{
     width: 30%;
-    height: 350px;
+    height: 300px;
     background-color:honeydew;
     margin-top: 30px;
     margin-left: 1%;
     margin-right: 4%;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-left: 20px;
     border: 1px solid grey;
     border-radius: 5px;
@@ -157,9 +158,7 @@ body{
     margin-top: -15px;
     transition: .8ms;
 }
-.gary{
-    color: dimgray;
-}
+
 
 
 
@@ -181,7 +180,7 @@ body{
 
 #get-updates{
     width: 40%;
-    height: 200px;
+    height: 170px;
     text-align: center;
     padding-top: 10px;
     padding-left: 20px;
@@ -189,15 +188,15 @@ body{
 }
 #get-updates h1{
     font-size: 40px;
-    color: rgb(79, 77, 77);
+    color: rgb(106, 5, 5);
 }
 #submited{
-    width: 50%;
-    height: 120px;
+    width: 30%;
+    height: 50px;
     text-align: center;
-    padding-top: 75px;
-    background-color: rgb(200, 219, 219);
-    margin-left: 330px;
+    padding-top: 30px;
+    background-color: rgb(184, 240, 236);
+    margin-left: 470px;
     border-radius: 20px;
 }
 
@@ -206,16 +205,16 @@ body{
 .footer{
     width: 100%;
     height: 150px;
-    background-color:rgb(10, 10, 33);
+    background-color:rgb(6, 3, 3);
     text-align: center;
     padding-top: 5px;
     margin-top: 100px;
 }
 .footer h1{
-    color: rgb(171, 23, 23);
+    color: rgb(210, 21, 21);
     font-family: cursive;
 }
 .footer p{
-    color: lightgray;
+    color: rgb(191, 184, 184);
     font-size: 15px;
 }
