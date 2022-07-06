@@ -1,0 +1,221 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+.top-section{
+    display: flex;
+    background-image: url(images/donation13.jpg);
+    width: 100%;
+    height: 650px;
+}
+.top-banner{
+    width: 50%;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 300px;
+ }
+.to-the-point{
+    color: white;
+}
+.top-banner h1{
+    font-size: 50px;
+}
+.top-banner p{
+    font-weight: 500;
+}
+.donate-now-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: rgb(234, 60, 60);
+    border-radius: 10px;
+}
+
+
+.donation-area{
+    background-image: url(images/water.webp);
+    width: 50%;
+    height: 450px;
+    text-align: center;
+    margin: 100px 200px 70px 300px;
+}
+.donation-amount{
+    display: flex;
+
+}
+.donation h1{
+    font-size: 40px;
+    color: rgb(71, 66, 66)
+}
+.donation p{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.amount{
+    display: inline-block;
+    width: 100px;
+    height: 70px;
+    font-weight: 900;
+    color: dimgray;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-top: 30px;
+    background-color:rgba(243, 235, 235, 0.402);
+}
+#amount-two{
+    display: inline-block;
+    width: 100px;
+    height: 70px;
+    font-weight: 900;
+    color: dimgray;
+    margin-top: 30px;
+    margin-left: 15px;
+    padding-top: 30px;
+    border: 2px solid tomato;
+    background-color: rgba(245, 225, 207, 0.644);
+    border-radius: 5px;
+}
+.text-color{
+    color: rgba(185, 178, 178, 0.906);
+}
+
+
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+
+}
+.plan{
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 200px;
+}
+.plan h1{
+    font-size: 40px;
+    color: rgb(138, 7, 15);
+}
+.plan p{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#plan-one{
+    width: 30%;
+    height: 350px;
+    background-color: rgb(224,255,255);
+    margin-top: 30px;
+    margin-left: 4%;
+    margin-right: 1%;
+    padding-top: 30px;
+    padding-left: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px gray;
+    transition: .8ms;
+}
+#plan-one:hover{
+    border: 1px solid rgb(239, 17, 17);
+    margin-top: -15px;
+    transition: .8ms;
+}
+#plan-two{
+    width: 30%;
+    height: 350px;
+    background-color:rgb(255,239,213);
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px gray;
+    transition: .8ms;
+}
+#plan-two:hover{
+    border: 1px solid rgb(223, 13, 13);
+    margin-top: -15px;
+    transition: .8ms;
+}
+#plan-three{
+    width: 30%;
+    height: 350px;
+    background-color:honeydew;
+    margin-top: 30px;
+    margin-left: 1%;
+    margin-right: 4%;
+    padding-top: 30px;
+    padding-left: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px gray;
+    transition: .8ms;
+}
+#plan-three:hover{
+    border: 1px solid rgb(233, 16, 16);
+    margin-top: -15px;
+    transition: .8ms;
+}
+.gary{
+    color: dimgray;
+}
+
+
+
+.need-help{
+    width: 50%;
+    padding-left: 5%;
+}
+.need-help img{
+    width: 90%;
+    height: 350px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.need-help p{
+    padding-right: 5%;
+}
+
+
+
+#get-updates{
+    width: 40%;
+    height: 200px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: 380px;
+}
+#get-updates h1{
+    font-size: 40px;
+    color: rgb(79, 77, 77);
+}
+#submited{
+    width: 50%;
+    height: 120px;
+    text-align: center;
+    padding-top: 75px;
+    background-color: rgb(200, 219, 219);
+    margin-left: 330px;
+    border-radius: 20px;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color:rgb(10, 10, 33);
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 100px;
+}
+.footer h1{
+    color: rgb(171, 23, 23);
+    font-family: cursive;
+}
+.footer p{
+    color: lightgray;
+    font-size: 15px;
+}
