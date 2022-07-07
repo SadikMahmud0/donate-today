@@ -195,7 +195,7 @@ body{
 }
 #get-updates h1{
     font-size: 40px;
-    color: rgb(100, 99, 99);
+    color: rgb(61, 50, 50);
 }
 #from-area{
     width: 50%;
@@ -203,6 +203,7 @@ body{
     margin-left: 25%;
     background-color: lavender;
     border-radius: 10px;
+    box-shadow: 10px 10px 20px lavender;
 }
 #email{
     font-size: 20px;
@@ -210,7 +211,7 @@ body{
     padding-top: 3px;
     padding-bottom: 3px;
     margin-top: 7%;
-    margin-left: 23%;
+    margin-left: 20%;
 }
 #subscribe{
     font-size: 20px;
@@ -219,6 +220,7 @@ body{
     padding-bottom: 5px;
     background-color: red;
     border: 0;
+    box-shadow: 10px 10px 20px rgba(253, 3, 3, 0.326);
 }
 
 
