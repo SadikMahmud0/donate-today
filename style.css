@@ -29,7 +29,7 @@ body{
     color: white;
     font-weight: 500;
     padding: 10px 20px;
-    background-image: linear-gradient(rgb(245, 158, 142),rgb(225, 71, 15));
+    background-image: linear-gradient(#FF5F6D,#FFC371);
     border-radius: 10px;
 }
 
@@ -44,7 +44,7 @@ body{
 .donation h1{
     font-size: 40px;
     padding-top: 15px;
-    color: rgb(218, 67, 13);
+    color: rgb(138, 7, 15);
 }
 .donation p{
     padding-left: 60px;
@@ -198,7 +198,7 @@ body{
 }
 #get-updates h1{
     font-size: 40px;
-    color: rgb(61, 50, 50);
+    color: rgb(138, 7, 15);
 }
 #from-area{
     width: 50%;
