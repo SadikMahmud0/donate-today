@@ -116,12 +116,6 @@ body{
     border: 1px solid grey;
     border-radius: 5px;
     box-shadow: 10px 10px 20px gray;
-    transition: .8ms;
-}
-#plan-one:hover{
-    border: 1px solid rgb(239, 17, 17);
-    margin-top: -15px;
-    transition: .8ms;
 }
 #plan-two{
     width: 30%;
@@ -133,12 +127,6 @@ body{
     border: 1px solid grey;
     border-radius: 5px;
     box-shadow: 10px 10px 20px gray;
-    transition: .8ms;
-}
-#plan-two:hover{
-    border: 1px solid rgb(223, 13, 13);
-    margin-top: -15px;
-    transition: .8ms;
 }
 #plan-three{
     width: 30%;
@@ -152,12 +140,6 @@ body{
     border: 1px solid grey;
     border-radius: 5px;
     box-shadow: 10px 10px 20px gray;
-    transition: .8ms;
-}
-#plan-three:hover{
-    border: 1px solid rgb(233, 16, 16);
-    margin-top: -15px;
-    transition: .8ms;
 }
 
 
